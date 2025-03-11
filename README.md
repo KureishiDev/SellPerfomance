@@ -4,21 +4,17 @@ This repository contains a Python script for analyzing and predicting sales data
 Project Structure
 The script performs the following tasks:
 
-Data Collection and Cleaning:
-
+1. Data Collection and Cleaning
 Loads sales data from a CSV file (replace 'dados_vendas.csv' with the actual file path).
-Exploratory Data Analysis (EDA):
-
+2. Exploratory Data Analysis (EDA)
 Displays descriptive statistics of the data.
 Visualizes the distribution of sales values.
 Plots total sales by region.
 Shows sales over time.
-Data Visualization:
-
+3. Data Visualization
 Scatter plot to visualize the relationship between the quantity of items sold and the sales value.
 Boxplot to compare sales by product category.
-Predictive Modeling:
-
+4. Predictive Modeling
 Prepares data by selecting relevant features for a linear regression model.
 Splits the data into training and test sets.
 Trains a linear regression model to predict sales values based on selected features.
@@ -32,14 +28,14 @@ seaborn
 scikit-learn
 You can install them using pip:
 
-bash
+nginx
 Copiar
 Editar
 pip install pandas matplotlib seaborn scikit-learn
 Usage
 Place your sales data CSV file in the project directory or update the file path in the script.
 Run the script to perform data analysis and prediction.
-bash
+nginx
 Copiar
 Editar
 python sales_analysis.py
